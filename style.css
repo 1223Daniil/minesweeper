@@ -1,0 +1,135 @@
+.app{
+max-width: 550px;
+max-height: 550px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.app2{
+  max-width: 780px;
+  max-height: 780px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .app3{
+    max-width: 950px;
+    max-height: 950px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+.box{
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+  font-weight: bold;
+  display: flex;
+  background-color: rgb(236, 228, 228);
+}
+body{
+  text-align: center;
+  background-color: grey;
+}
+
+.bomb-count-1 {
+  color: blue;
+}
+ .bomb-count-2 {
+  
+  color: green;
+ }
+ .bomb-count-3 {
+  
+  color: red;
+ }
+ .bomb-count-4 {
+  
+  color: darkblue;
+ }
+ .bomb-count-5 {
+  
+  color: brown;
+ }
+ .bomb-count-6 {
+  
+  color: turquoise;
+ }
+ .bomb-count-7 {
+  
+  color: black;
+ }
+ .bomb-count-8 {
+  
+  color: white;
+ }
+
+ .initial {
+  border-style: outset;
+  cursor: pointer;
+  background-color: rgb(161, 185, 206);
+}
+
+.bt {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+margin: 20px 20px 0px 0px;
+}
+.LightAndBlack{
+  background-color: #000000;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+span{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  font-weight: bold;
+}
+
+.NightBt{
+  background-color: rgb(209, 217, 224);
+}
+.NightBox{
+  border: white 1px solid;
+  background-color: #3b3333;
+}
+
+.Level1{
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+  background-color: #daa8a8;
+  color: rgb(0, 0, 0);
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.Level2{
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+  background-color: #daa8a8;
+  color: rgb(0, 0, 0);
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.Level3{
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+  background-color: #daa8a8;
+  color: rgb(0, 0, 0);
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
